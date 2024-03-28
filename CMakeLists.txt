@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 project(racing_simulator_v2)
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 include_directories(Race_simulator_lib)
 
 set(CMAKE_CXX_STANDARD 14)
